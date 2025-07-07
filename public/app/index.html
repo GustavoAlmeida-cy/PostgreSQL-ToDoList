@@ -18,17 +18,22 @@
 <body>
     <section id="auth">
         <div>
-            <h2 className="sign-up-text">Login</h2>
-            <p>Create an account!</p>
+            <h2 class="sign-up-text">Login</h2>
+            <p style="margin-top: 4px;">Create an account!</p>
         </div>
 
         <p id="error" style="display: none;"></p>
-        <input id="emailInput" placeholder="Email" />
-        <input id="passwordInput" placeholder="********" type="password" />
+        <label for="emailInput" style="font-weight: 600; font-size: 14px;">E-mail</label>
+        <input required id="emailInput" placeholder="johndoe@gmail.com" />
+
+        <label for="passwordInput" style="font-weight: 600; font-size: 14px;">Password</label>
+        <input required id="passwordInput" placeholder="Jonh@123" type="password" />
+
         <button id="authBtn" onclick="authenticate()">
             Submit
         </button>
         <hr />
+
         <div class="register-content">
             <p>Don&apos;t have an account?</p>
             <button onclick="toggleIsRegister()" id="registerBtn">Sign up</button>

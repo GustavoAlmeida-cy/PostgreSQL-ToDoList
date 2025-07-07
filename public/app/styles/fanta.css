@@ -116,7 +116,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Eczar", serif;
 }
 
 body {
@@ -147,7 +146,6 @@ h4,
 h5,
 h6,
 button {
-  font-family: "Grenze", serif;
   width: fit-content;
 }
 
@@ -429,7 +427,6 @@ button {
   color: var(--color-primary);
   background-color: var(--background-primary);
   width: fit-content;
-  font-family: inherit;
   font-size: inherit;
   font-weight: 500;
   padding: 0.25rem 1.25rem;
