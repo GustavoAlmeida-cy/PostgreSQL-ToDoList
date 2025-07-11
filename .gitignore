@@ -4,3 +4,4 @@ todo-app.rest
 npm-debug.log*
 yarn-debug.log*
 .DS_Store
+/src/generated/prisma
